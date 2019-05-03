@@ -73,11 +73,16 @@ extension SortViewModel: UITableViewDataSource {
 }
 
 extension SortViewModel: UITableViewDelegate {
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.isHidden = true
         let currentType = sortItems[indexPath.row]
         updateSortEntityWithType?(selectedType)
         selectedType = currentType
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 44
     }
     
 }

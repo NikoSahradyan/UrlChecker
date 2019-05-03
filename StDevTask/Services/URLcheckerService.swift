@@ -17,11 +17,9 @@ class URLcheckerService: NSObject {
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             if error != nil {
                 completion(.unavailable)
-                print("Nikooooo unavailable")
             } else {
                 let timeOfRequest = Date().timeIntervalSince1970 - startDate
                 completion(.available(duration: timeOfRequest))
-                 print("Nikooooo available")
             }
         }.resume()
     }

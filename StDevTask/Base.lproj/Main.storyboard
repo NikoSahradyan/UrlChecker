@@ -43,11 +43,11 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sjh-t2-80V">
-                                <rect key="frame" x="8" y="58" width="240" height="264"/>
+                                <rect key="frame" x="8" y="58" width="250" height="264"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="264" id="AZ1-jd-0U8"/>
-                                    <constraint firstAttribute="width" constant="240" id="DCt-73-D3I"/>
+                                    <constraint firstAttribute="width" constant="250" id="DCt-73-D3I"/>
                                 </constraints>
                             </tableView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJp-jM-SJA">
