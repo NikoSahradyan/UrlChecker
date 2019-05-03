@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G6030" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SortEntity" representedClassName="SortEntity" syncable="YES">
+        <attribute name="sortType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlArray" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="URLEntity" representedClassName="URLEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="availableTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SortEntity" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="URLEntity" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
